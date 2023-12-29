@@ -2,7 +2,7 @@
 .header {
   padding-top: 18px;
   padding-bottom: 10px;
-  position: absolute;
+
 }
 .logo {
   display: flex;
@@ -39,12 +39,12 @@ text-transform: lowercase;
 .header-container {
   display: flex;
   justify-content: space-between;
-  width: 343px;
+
 }
 .navigation {
   display: none;
 }
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 768px) {
   .header{
     padding: 0;
   }
