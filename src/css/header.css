@@ -1,21 +1,75 @@
+
 .header {
-  padding: 20px 0;
+  padding-top: 18px;
+  padding-bottom: 10px;
+  position: absolute;
+}
+.logo {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 4px;
+font-family: 'Brygada 1918', serif;
+font-size: 24px;
+font-weight: 400;
+line-height:1.2; /* 416.667% */
+letter-spacing: 0.05em;
+color: #9F6F3D;
+
+}
+.logo-pite {
+  color: #EBEBEB;
+
+
+font-size: 16px;
+
+font-weight: 300;
+line-height: 1.25; /* 125% */
+letter-spacing: 0.05em;
+text-transform: lowercase;
+}
+.menu-open-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  width: 24px;height: 24px;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+}
+.navigation {
+  display: none;
+}
+@media only screen and (min-width: 834px) {
+  .header{
+    padding: 0;
+  }
+   .menu-open-btn{
+    display: none;
+    
+  }
+  .navigation {
+    display: block;
+}
 .nav-list {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  gap: 32px;
 }
-
 .nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
+color: #EBEBEB;
+text-align: center;
+font-size: 16px;
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.05em;
+padding: 30px 0;
+display: block;
+}
+.nav-link:hover, .nav-link:focus {
+  color: #9F6F3D;
+}
 }

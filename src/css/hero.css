@@ -1,0 +1,36 @@
+.hero {
+    padding-top: 238px;
+    padding-bottom: 244px;
+    background-image: url(../img/hero-bg-1x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    color: #FFF;
+font-family: Brygada 1918;
+font-size: 48px;
+font-weight: 600;
+line-height: 1.15; /* 114.583% */
+margin-bottom: 14px;
+}
+.hero-text {
+color:  #EBEBEB;
+font-size: 18px;
+line-height: 1.7; /* 166.667% */
+margin-bottom: 64px;
+}
+.hero-btn {
+    min-width: 343px;
+    height: 60px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 8px;
+border: 1px solid #BCBCBC;
+color: #F6F6F6;
+font-size: 18px;
+
+font-weight: 600;
+line-height: 1.77; /* 177.778% */
+letter-spacing: 0.05em;
+}

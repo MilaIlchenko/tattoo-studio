@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #EBEBEB;
+    background-color: #0C0F12;
+}
+
+.container {
+    max-width: 375px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+@media screen and (min-width:768px)  {
+    .container {
+    max-width: 834px;
+    padding: 0 40px;
+}
+}
+
+
+@media screen and (min-width:1200px)  {
+    .container {
+    max-width: 1230px;
+    padding: 0 15px;
+}
+}
