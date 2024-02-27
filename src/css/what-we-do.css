@@ -1,6 +1,5 @@
 .what-we-do {
     padding: 40px 0;
-
 }
 
 .what-we-do-title {
@@ -39,29 +38,31 @@ font-weight: 300;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.05em;
 }
+
 @media only screen and (min-width: 768px) {
    .what-we-do{
     padding: 50px 0;
-    
   }
-  .what-we-do-title {
-    margin-bottom: 64px;
-   
-font-size: 64px;
 
+.what-we-do-title {
+margin-bottom: 64px;
+font-size: 64px;
 line-height: 1; /* 100% */
 letter-spacing: 0.05em;
   }
+
   .what-we-do-list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .what-we-do-item {
     padding: 70px 24px;
     /* width: calc((100% - 24px)/2); */
     max-width: 355px;
   }
+  
   .what-we-do-subtitle {
     margin-bottom: 8px;
   }
